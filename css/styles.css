@@ -1,0 +1,44 @@
+body
+{
+    background-color: #fff;
+}
+.container
+{
+    position: relative;
+}
+.card-title
+{
+    font-family: serif;
+    font-size: 2.5em;
+    font-style: bold;
+}
+.card
+{
+    background-color: rgb(236, 235, 236);
+}
+.icon
+{
+    width: 4rem;
+    height: 4rem;
+    max-width: 100%;
+}
+.h2
+{
+    font-size: 2.5em;
+}
+hr
+{
+    color: #55C695;
+}
+.footer
+{
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    margin-top: 96px;
+    background-color: #00008B;
+    height: 100px;
+    color: #9FB3DF;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
