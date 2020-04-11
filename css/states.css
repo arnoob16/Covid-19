@@ -45,6 +45,10 @@ td:nth-child(5){
 tfoot{
     font-weight: 700;
 }
+.row
+{
+    margin-top: 40px;
+}
 .Table
 {
     display: inline-block;
