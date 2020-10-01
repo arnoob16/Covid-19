@@ -1,57 +1,70 @@
-body
-{
-    background-color: rgb(250, 248, 248);
+* {
+    margin: 0;
+    padding: 0;
 }
-.container
-{
-    position: relative;
+
+body {
+    background-color: rgb(250, 248, 248);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
     margin-bottom: 50px;
 }
-.card-title
-{
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
     font-family: serif;
     font-size: 2.5em;
     font-style: bold;
 }
-.card
-{
-    background-color: rgb(236, 235, 236);
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.button
-{
+
+.button {
     margin-bottom: -50px;
 }
-.Love
-{
+
+.Love {
     padding-top: 20px;
 }
-.noteOfThanks
-{
+
+.noteOfThanks {
     padding: 20px;
     margin: 20px;
     margin-bottom: 100px;
 }
-.icon
-{
+
+.icon {
     width: 4rem;
     height: 4rem;
     max-width: 100%;
 }
-.h2
-{
+
+.h2 {
     font-size: 2.5em;
 }
-hr
-{
+
+hr {
     color: #55C695;
 }
-.footer
-{
+
+.footer {
     position: relative;
     min-height: 100%;
     margin-top: 20px;
 }
-footer{
+
+footer {
     bottom: 0;
     position: absolute;
     width: 100%;

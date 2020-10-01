@@ -16,7 +16,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00008B">
             <a class="navbar-brand mr-auto" href="#" style="color: #FFF">
-                <img src="https://image.flaticon.com/icons/svg/2750/2750835.svg" height="30" width="30" >
+                <img src="https://image.flaticon.com/icons/svg/2750/2750835.svg" class="mr-2" height="30" width="30" >
                 Covid-19 Tracker for India
             </a>    
         </nav>
@@ -34,13 +34,9 @@
                     <div class="card-title text-center" style="color: #FF4500;">
                         Total Cases
                     </div>
-                    <div class="card-body row text-center">
-                        <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12">
-                            <img src="https://image.flaticon.com/icons/svg/2746/2746443.svg" style="height: 4rem; width: 4rem;">
-                        </div>
-                        <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12">
-                            <span class="total_cases count h2" style="color: #FF4500;">0</span>
-                        </div>
+                    <div class="card-body text-center">
+                        <img src="https://image.flaticon.com/icons/svg/2746/2746443.svg" style="height: 4rem; width: 4rem;">
+                        <span class="total_cases count h2" style="color: #FF4500;">0</span>
                     </div>
                 </div>
 
@@ -49,12 +45,12 @@
                         Deaths
                     </div>
                     <div class="card-body row text-center">
-                        <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12">
+                        <!-- <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12"> -->
                             <img src="https://image.flaticon.com/icons/svg/1162/1162218.svg" style="height: 4rem; width: 4rem;">
-                        </div>
-                        <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12">
+                        <!-- </div> -->
+                        <!-- <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12"> -->
                             <span class="deaths count h2" style="color: #1E90FF;">0</span>
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -65,12 +61,12 @@
                         Recovered
                     </div>
                     <div class="card-body row text-center">
-                        <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12">
+                        <!-- <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12"> -->
                             <img src="https://image.flaticon.com/icons/svg/1512/1512922.svg" style="height: 4rem; width: 4rem;">
-                        </div>
-                        <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12">
+                        <!-- </div> -->
+                        <!-- <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12"> -->
                             <span class="recovered count h2" style="color: #008000;">0</span>
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
 
@@ -79,19 +75,20 @@
                         Active Cases
                     </div>
                     <div class="card-body row text-center   ">
-                        <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12">
+                        <!-- <div class="icon col-2 col-xl-2 offset-2 offset-xl-2 offset-sm-0 col-sm-12"> -->
                             <img src="https://image.flaticon.com/icons/svg/2750/2750869.svg" style="height: 4rem; width: 4rem;">
-                        </div>
-                        <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12">
+                        <!-- </div> -->
+                        <!-- <div class="col-5 offset-1 col-xl-5 offset-xl-1 offset-sm-0 col-sm-12"> -->
                             <span class="active count h2" style="color: #696969;">0</span>
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="button" style="padding: 20px;">
-            <a href="States.html" class="btn btn-outline-dark btn-block" style=" text-align: center; margin: 0 auto; display: block; width: 350px;">Want to know State-wise Stats ?<br>Click Me</a>
+        <h5 class="text-center">Want to know State-wise Stats ?</h5>
+        <div class="button text-center">
+            <a href="States.html" class="btn btn-outline-dark">Click Me</a>
         </div>
 
         <div class="noteOfThanks" style="align-items: center;">
